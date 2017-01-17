@@ -1,0 +1,22 @@
+&__user {
+	position: relative;
+	text-align: center;
+	@media screen and (max-width: 768px) {
+		margin-bottom: 50px;
+	}
+	&__name {
+		font-size: 24px;
+		font-family: proximanova-bold;
+		font-weight: 400;
+		font-style: normal;
+		color: #fff;
+		margin: 20px 0px;
+	}
+	&__info {
+		color: #949494;
+		font-family: proximanova-light;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 18px;
+	}
+}

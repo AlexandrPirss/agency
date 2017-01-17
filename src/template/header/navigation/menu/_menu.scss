@@ -1,0 +1,54 @@
+.menu {
+	position: relative;
+	float: right;
+	@media screen and (max-width: 768px) {
+		display: none;
+		position: relative;
+		top: 0px;
+		width: 100%;
+		z-index: 10;
+	}
+	&__list {
+		position: relative;
+	}
+	&__item {
+		display: inline-block;
+		margin-left: 10px;
+		&:first-child {
+			margin-left: 0;
+		}
+		@media screen and (max-width: 990px) {
+			margin-left: 0px;
+
+		}
+		@media screen and (max-width: 768px) {
+			display: table;
+			margin: 0 auto;
+			margin-bottom: 15px;
+			&:first-child {
+				margin: 0 auto;
+				margin-bottom: 10px;
+			}
+		}
+	}
+	&__link {
+		display: block;
+		text-decoration: none;
+		font-size: 16px;
+		font-weight: normal;
+		font-style: normal;
+		color: #000;
+		padding: 8px 20px;
+		border: 1px solid rgba(0,0,0,.0);
+		border-radius: 20px;
+		-webkit-transition: all 0.25s ease;
+		-moz-transition: all 0.25s ease;
+		-o-transition: all 0.25s ease;
+		&:hover {
+			border: 1px solid rgba(0,0,0,.3);
+		}
+		@media screen and (max-width: 768px) {
+			
+		}
+	}
+}

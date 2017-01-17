@@ -1,0 +1,20 @@
+.scrool__down {
+	position: absolute;
+	bottom: 50px;
+	width: 75px;
+	height: 70px;
+	left: 50%;
+	margin-left: -37.5px;
+	background-image: url("../img/scrool_img.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	&:hover {
+		background-image: url("../img/scrool_img-hover.png");
+	}
+	@media screen and (max-width: 768px) {
+		bottom: 20px;
+	}
+}

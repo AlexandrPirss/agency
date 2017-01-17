@@ -1,0 +1,16 @@
+&__title {
+	font-family: "proximanova-bold";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 48px;
+	color: #000;
+	margin: 0;
+	@media screen and (max-width: 768px) {
+		font-size: 38px;
+		line-height: 38px;
+	}
+	@media screen and (max-width: 500px) {
+		font-size: 28px;
+		line-height: 28px;
+	}
+}

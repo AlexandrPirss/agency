@@ -1,0 +1,9 @@
+&__text {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+	color: #949494;
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+}

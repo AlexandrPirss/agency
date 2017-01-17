@@ -1,0 +1,13 @@
+.swiper-slide {
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	@media screen and (max-width: 1200px) {
+		height: 360px;
+	}
+	@media screen and (max-width: 768px) {
+		height: 350px;
+	}
+	@import "img/_img.scss";
+	@import "content/_content.scss";
+}

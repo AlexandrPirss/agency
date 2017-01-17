@@ -1,0 +1,32 @@
+/*
+* Third Party
+*/
+@import "../../node_modules/swiper/dist/css/swiper.min.css";
+
+
+/*
+* Custom
+*/
+@import "_reset.scss";
+@import "_grids.scss";
+@import "_fonts.scss";
+
+
+/* 
+* home_page
+*/
+@import "../template/header/_header.scss";
+@import "../template/block__1/_block__1.scss";
+@import "../template/block__2/_block__2.scss";
+@import "../template/slider/_slider.scss";
+@import "../template/team/_team.scss";
+@import "../template/maps/_maps.scss";
+@import "../template/footer/_footer.scss";
+
+body {
+	font-family: "proximanova-regular";
+}
+
+.wrapper {
+	position: relative;
+}

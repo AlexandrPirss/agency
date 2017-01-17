@@ -1,0 +1,17 @@
+.header {
+	position: relative;
+	width: 100%;
+	max-height: 1080px;
+	min-height: 600px;
+	height: 100vh;
+	background-image: url("../img/header-background.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	// menu
+	@import "navigation/_navigation.scss";
+	// content
+	@import "header__content/_header__content.scss";
+	// scrool down
+	@import "scrool__down/_scrool__down.scss";
+}

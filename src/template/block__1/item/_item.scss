@@ -1,0 +1,14 @@
+.block1__item {
+	position: relative;
+	width: 100%;
+	max-height: 230px;
+	height: 100%;
+	@media screen and (max-width: 768px) {
+		&:first-child {
+			margin-bottom: 40px;
+		}
+	}
+	@import "title/_title.scss";
+	@import "text/_text.scss";
+	@import "button/_button.scss";
+}

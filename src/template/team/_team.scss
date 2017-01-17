@@ -1,0 +1,15 @@
+.team {
+	position: relative;
+	width: 100%;
+	min-height: 680px;
+	height: 100%;
+	padding: 110px 0px;
+	background-image: url("../img/team-background.jpg");
+	background-position: center center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	@import "title/_title.scss";
+	@import "user/_user.scss";
+	@import "button/_button.scss";
+}

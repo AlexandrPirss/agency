@@ -1,0 +1,14 @@
+.header__content {
+	position: relative;
+	text-align: center;
+	margin-top: 150px;
+	// title
+	@import "title/_title.scss";
+	// text
+	@import "text/_text.scss";
+	// button
+	@import "button/_button.scss";
+	@media screen and (max-width: 768px) {
+		margin-top: 100px;
+	}
+}

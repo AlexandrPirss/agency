@@ -1,0 +1,26 @@
+.swiper-button-next {
+	width: 60px;
+	height: 60px;
+	background-color: #fff;
+	right: 0px;
+	background-image: url("../img/slider-arrow-right.png");
+	background-size: 16px 30px;
+	@media screen and (max-width: 400px) {
+		width: 40px;
+		height: 40px;
+		background-size: 14px 22px;
+	}
+}
+.swiper-button-prev {
+	width: 60px;
+	height: 60px;
+	background-color: #fff;
+	left: 0px;
+	background-image: url("../img/slider-arrow-left.png");
+	background-size: 16px 30px;
+	@media screen and (max-width: 400px) {
+		width: 40px;
+		height: 40px;
+		background-size: 14px 22px;
+	}
+}
